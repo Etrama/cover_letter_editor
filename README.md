@@ -4,7 +4,7 @@ A simple Cover Letter generator.
 It uses a template file to generate a cover letter based on the information you provide.
 <br>
 <br>
-The idea is to ease the just replace the company name and position name for each position that you apply to, since it is practically impossible to write a cover letter for each job that you want to apply to.
+The idea is to ease the just replace the company name and position name for each position that you apply to, since it is practically impossible to write a cover letter for each job that you want to apply to. Sadly, the current job market is a numbers game more than anything else, so here we are.
 <br>
 <br>
 The requirements.txt file is a bit overkill in this case, but it is there if you need it. Simply put, you only need docx, python-docx, re and pysimplegui to be installed on your system.
