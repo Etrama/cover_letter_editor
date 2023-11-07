@@ -21,14 +21,14 @@ I am attaching a sample of the folder structure that I use for this project so t
 cover_letter_editor/  
 │  
 ├── generated_cover_letters/  
-|   ├── .gitkeep  
+│  ├── .gitkeep  
 │   ├── generated_output_1.docx  
 │   ├── generated_output_2.docx  
 │   ├── ....  
 │   └── generated_output_n_.docs  
 │  
 ├── template_cover_letter/  
-|   ├── .gitkeep  
+│   ├── .gitkeep  
 │   └── YOUR_TEMPLATE_COVER_LETTER.docx  
 │  
 ├── .gitignore  
