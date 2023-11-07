@@ -26,7 +26,10 @@ That didn't work either. Trying batch files now. If you have python in your path
 
 ```python cover_letter_script.py```
 
-This approach worked for me, as of this writing.
+This approach worked for me, as of this writing. This approach only worked inside the folder that the script was in. But weirdly enough it used to work for me from a anywhere before. I suspect, it's because I used a global path before and a relative path now. Trying again with global paths.
+<br>
+<br>
+The global path thing is true for batch scripts. However, the problem in my case was that the default execution program for .py files was VS Code. So I changed that back to python.exe and the shortcut method started working. If you hit the hotkeys chosen anywhere except the Desktop on Windows, they do work. Weird, but true. 
 <br>
 <br>
 Feel free to use, redistribute, modify, etc. this script. I hope it helps you in your job search. I hope it helps my job search too :D.

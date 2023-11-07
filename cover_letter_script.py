@@ -3,12 +3,12 @@ from docx import Document
 from docx.shared import Pt
 import PySimpleGUI as gui
 
-FILE_SRC = r".\template_cover_letter\0_Cover letter_Kaushik Moudgalya_v2.docx"
+FILE_SRC = r"C:\Users\kaush\Desktop\Jobs\cover_letter_editor\template_cover_letter\0_Cover letter_Kaushik Moudgalya_v2.docx"
 #get company name from the user:
 COMPANY = gui.PopupGetText("Enter the company name: ")
 POSITION = gui.PopupGetText("Enter the position name: ")
 # TO DO: we need a dialog box that will ask me to enter the company name
-FILE_DEST = r"./generated_cover_letters//" + str(COMPANY) + r"_Cover letter_Kaushik Moudgalya_v2.docx"
+FILE_DEST = r"C:\Users\kaush\Desktop\Jobs\cover_letter_editor\generated_cover_letters\\" + str(COMPANY) + r"_Cover letter_Kaushik Moudgalya_v2.docx"
 
 # replace the "Position" and the "Company" strings.
 document = Document(FILE_SRC)
