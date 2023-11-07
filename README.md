@@ -22,6 +22,13 @@ Essentially, you can now run the script even without having python installed on 
 This will create a build and dist folder. Use the executable called cover_letter_script.exe from the dist folder. 
 <br>
 <br>
+That didn't work either. Trying batch files now. If you have python in your path just write the following line in a notepad file and save it as a .bat file. You can then run the script by double clicking on the .bat file or assigning a shortcut to it.
+
+```python cover_letter_script.py```
+
+This approach worked for me, as of this writing.
+<br>
+<br>
 Feel free to use, redistribute, modify, etc. this script. I hope it helps you in your job search. I hope it helps my job search too :D.
 <br>
 <br>
