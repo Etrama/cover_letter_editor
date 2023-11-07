@@ -18,21 +18,20 @@ Feel free to use, redistribute, modify, etc. this script. I hope it helps you in
 <br>
 I am attaching a sample of the folder structure that I use for this project so that everyone else can also use it:
 <br>
-cover_letter_editor/  
-│  
-├── generated_cover_letters/  
-│  ├── .gitkeep  
-│   ├── generated_output_1.docx  
-│   ├── generated_output_2.docx  
-│   ├── ....  
-│   └── generated_output_n_.docs  
-│  
-├── template_cover_letter/  
-│   ├── .gitkeep  
-│   └── YOUR_TEMPLATE_COVER_LETTER.docx  
-│  
-├── .gitignore  
-├── cover_letter_script.ipynb  
-├── cover_letter_script.py  
-├── README.md  
-└── requirements.txt  
+cover_letter_editor/
+├── generated_cover_letters/
+│   ├── .gitkeep
+│   ├── generated_output_1.docx
+│   ├── generated_output_2.docx
+│   ├── ...
+│   └── generated_output_n.docx
+│
+├── template_cover_letter/
+│   ├── .gitkeep
+│   └── YOUR_TEMPLATE_COVER_LETTER.docx
+│
+├── .gitignore
+├── cover_letter_script.ipynb
+├── cover_letter_script.py
+├── README.md
+└── requirements.txt
